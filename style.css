@@ -53,6 +53,13 @@ a{
 
 .passwordgroup{
     display: flex;
+    transform: translateX(-15%);
+}
+
+@media screen and (min-width: 768px) {
+    .passwordgroup {
+        transform: translateX(0);
+    }
 }
 
 #mostrar {
