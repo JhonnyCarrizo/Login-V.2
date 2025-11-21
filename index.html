@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>LoginV.1</title>
+</head>
+<body>
+    <!-- Cuerpo del login -->
+    <div id="formulario" >
+        <!-- Imagen del usuario -->
+        <img  src="https://i.pinimg.com/736x/06/75/99/0675990f09158fd0d206dd929a13f06a.jpg"  width="150" />
+        <!-- Nombre del usuario -->
+        <h1>Fappet</h1>
+        <!-- Formulario -->
+        <form action="home.html" method="post" >
+            <!-- contraseña -->
+            <div class="passwordgroup" >
+            <label for="contraseña"></label>          
+            <input id="contraseña" type="password" placeholder="Contraseña" required>
+            
+            <div class="boxMostrar" >
+                <label for="mostrar" id="label-mostrar"></label>
+                
+                <input type="button" id="mostrar" value="👁️" >
+            </div>
+            </div>
+                <!-- Boton para enviar los datos -->
+                <div><input type="submit" value="Entrar"></div>
+                <!-- Redireccion para recuperar contraseña -->
+                <div class="recuperar" ><a href="recuperar.html">¿Has olvidado la contraseña?</a></div>                         
+        </form>
+    </div>
+    <script src="login.js" ></script>
+</body>
+</html>
