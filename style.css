@@ -27,15 +27,15 @@ img {
 
 
 input[type="submit"] {
-width: 150px;
-background-color: slateblue;
-font-size: 20px;
-border-radius: 100px;
-padding: 10px;
-color: white;
-text-align: center;
-margin: 10px auto auto auto;
-cursor: pointer;
+    width: 150px;
+    background-color: slateblue;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: 10px auto auto auto;
+    cursor: pointer;
 }
 
 a{
@@ -53,12 +53,14 @@ a{
 
 .passwordgroup{
     display: flex;
-    transform: translateX(-100%);
+    margin: 0 50% 0 10%;
 }
 
 @media screen and (min-width: 768px) {
     .passwordgroup {
+        margin: 0 auto 0 auto;
         transform: translateX(0);
+        position: relative;
     }
 }
 
